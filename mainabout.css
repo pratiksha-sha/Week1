@@ -38,6 +38,7 @@ header li{
    padding-left:70px;
    padding-right: 20px;
    margin-top: 50px;
+
    
 }
 .container .intra {
@@ -54,6 +55,10 @@ header li{
     overflow:hidden;
   }
 
+ h2{
+     color: rgb(12, 78, 80);
+ }   
+}
   .he-llo{
       font-size: 55px;
   }
@@ -61,8 +66,9 @@ header li{
     display:grid;
     background: rgb(158, 154, 154);
     padding:2em;
-    grid-gap:2em;  
+    grid-gap:0em;  
   }    
+  
     
  .address{
         font-size:15px;
@@ -74,10 +80,16 @@ header li{
     float:left;
 
 }
+
+.cont2 p{
+    font-size: 20px;
+    font-
+
+}
 footer{
     text-align:center;
     font-size:15px;
-    min-height:150px;
+    min-height:180px;
     background-color:rgb(128, 199, 180);
     width:80%;
     margin:auto;
@@ -85,8 +97,9 @@ footer{
  
 #boxes .box{
     float:left;
-    width: 30%;
+    width: 25%;
     text-align:center;
+    padding-top: 20px;
     
 }
  

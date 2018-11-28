@@ -19,6 +19,9 @@ header{
     margin:0;
     color:grey;
 }
+.my{
+    font-size:40px;
+}
 header a{ 
     text-decoration:none;
     text-transform: uppercase;
@@ -26,20 +29,22 @@ header a{
     font-size: 15px;
 }
 
-header ul{
+header ul li{
     margin:0;
     padding:o;
+    width: 30%;
     
 }
 
 header li{
-   float:left;
-   display:inline;
-   padding-left:70px;
-   padding-right: 15px;
-   margin-top: 50px;
-   
+    float:left;
+    display:inline;
+    
 }
+    
+    
+
+
 .container .intra {
     background:rgba(158, 154, 154);
     padding:2em;
@@ -74,10 +79,15 @@ header li{
     float:left;
 
 }
+
+.sub-cont .myskill{
+    display: inline;
+    
+}
 footer{
     text-align:center;
     font-size:15px;
-    min-height:150px;
+    min-height:180px;
     background-color:rgb(128, 199, 180);
     width:80%;
     margin:auto;
@@ -87,6 +97,7 @@ footer{
     float:left;
     width: 23%;
     text-align:center;
+    padding-top: 20px;
     
 }
  .fothead{
