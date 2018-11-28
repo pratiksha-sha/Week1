@@ -1,0 +1,103 @@
+header{
+    text-align:center;
+    font-size:10px;
+    min-height:100px;
+    background-color:rgb(128,199,180);
+    width:80%;
+    margin:auto;
+    border-bottom: 1px solid grey;
+}
+ header h1{
+    font-size: 40%;
+    margin-top: 10px;
+    margin-left:0px
+    
+}
+ #me{
+    font-size:15px;
+    font-family: Arial;
+    margin:0;
+    color:grey;
+}
+header a{ 
+    text-decoration:none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+}
+
+header ul{
+    margin:0;
+    padding:o;
+    
+}
+
+header li{
+   float:left;
+   display:inline;
+   padding-left:70px;
+   padding-right: 15px;
+   margin-top: 50px;
+   
+}
+.container .intra {
+    background:rgba(158, 154, 154);
+    padding:2em;
+      
+} 
+  .container{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    grid-gap:1em;
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+
+  .he-llo{
+      font-size: 55px;
+  }
+  .sub-cont{
+    display:grid;
+    background: rgb(158, 154, 154);
+    padding:2em;
+    grid-gap:2em;  
+  }    
+    
+ .address{
+        font-size:15px;
+        font-family:cursive;
+  }  
+
+.container .signs{
+    padding: 10px;
+    float:left;
+
+}
+footer{
+    text-align:center;
+    font-size:15px;
+    min-height:150px;
+    background-color:rgb(128, 199, 180);
+    width:80%;
+    margin:auto;
+}
+ 
+#boxes .box{
+    float:left;
+    width: 23%;
+    text-align:center;
+    
+}
+ .fothead{
+     font-size: 15px;
+ }   
+ h2 h3 h4{
+    font-size:30px;
+}
+
+/*tabled portrait*/
+@media screen (max-width:768px){
+    header li{
+        float:none;
+    }
